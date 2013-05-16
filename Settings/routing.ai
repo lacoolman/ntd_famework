@@ -1,0 +1,18 @@
+{
+    "index" : {
+        "controller" : "\\Controller\\IndexController",
+        "action" : "indexAction",
+        "pattern" : "/"
+    },
+    "print" : {
+            "controller" : "\\Controller\\IndexController",
+            "action" : "printAction",
+            "pattern" : "/print/name/:val"
+        },
+    "login" : {
+        "controller" : "\\Controller\\IndexController",
+        "action" : "loginAction",
+        "pattern" : "/login"
+    }
+
+}
